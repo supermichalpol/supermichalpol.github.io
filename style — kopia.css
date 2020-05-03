@@ -59,12 +59,14 @@ margin-left: auto;
 margin-right: auto
 }
 
+
+#menus {
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #3ff776;
+  background-color: #33415d;
 }
 
 li {
@@ -81,5 +83,6 @@ li a {
 }
 
 li a:hover {
-  background-color: #238440;
+  background-color: #0d6ba1;
+}
 }
