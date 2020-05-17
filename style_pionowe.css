@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+font-family: Lato;
+background-color: #e0e0e0;
+}
+
+#naglowek {
+text-align: center;
+background-color: #c2c2c2;
+}
+
+#menu {
+	float: left;
+background-color: #8eacbb;
+word-spacing: 30px;
+text-align: center;
+
+}
+
+#stopka {
+clear: both;
+bottom: 0;
+background-color: #34515f;
+color: white;
+text-align: center;
+width: 100%;
+
+}
+
+#pogoda {
+
+	float: left;
+	border-style: solid;
+	border-width: 5px;
+	border-color: blue;
+	width: 18%;
+	height:auto;
+	text-align: center;
+}
+
+
+
+#tekst {
+border-style: solid;
+border-width: 20px;
+float: left;
+width: 50%;
+
+
+
+}
+
+#formularz {
+border-style: solid;
+border-width: 20px;
+text-align: center;
+}
+
+#mapa {
+text-align: center;
+border-style: solid;
+border-width: 20px;
+margin-left: auto;
+margin-right: auto
+}
+
+ul,ul li
+{
+display:block;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+ul    
+{
+width: 200px;
+}
+ul a:link, ul a:visited
+{
+display: block;
+width: 166px;
+text-decoration: none;
+background-color: #8bf5ff;
+color: black;
+padding: 4px;
+border: 2px outset #0092c4;
+}
+ul:hover
+{
+border-style: inset;
+color:orange;
+padding: 6px 3px 3px 6px;
+}
